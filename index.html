@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Shaheen Restaurant</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Welcome to Shaheen Restaurant </h1>
+        <p>Experience the finest in dining</p>
+        <a href="#menu" class="cta-button">View Menu</a>
+    </section>
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" height="900px" width="900px" alt="Dish 1">
+            <h3>Mix VEG</h3>
+            <p>It is a traditional and a supportive Dish </p>
+            <span>Rs 100/p</span>
+            <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" height="900px" width="900px" alt="Dish 1">
+            <h3>Salad</h3>
+            <p>This dish is a very healthy and has a variety of natural ingredients.</p>
+            <span>Rs 120/p</span>
+            <img src="https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" height="900px" width="900px" alt="Dish 1">
+            <h3>Fruit Salad</h3>
+            <p>This dish is a very healthy and has a variety of natural ingredients.</p>
+            <span>Rs 120/p</span>
+        </div>
+        <!-- Repeat similar structure for other menu items -->
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a premier restaurant in Kashmir and we provide traditionl foods as well as foods of different parts of the country.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For reservations, call us at: 7780844589</p>
+    </section>
+    <!-- ...previous code... -->
+
+    <section id="reservation">
+        <h2>Make a Reservation</h2>
+        <form action="#" method="post">
+            <label for="reservation-date">Date:</label>
+            <input type="date" id="reservation-date" name="reservation-date" required>
+            <label for="reservation-time">Time:</label>
+            <input type="time" id="reservation-time" name="reservation-time" required>
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" min="1" required>
+            <label for="contact-name">Your Name:</label>
+            <input type="text" id="contact-name" name="contact-name" required>
+            <label for="contact-email">Email:</label>
+            <input type="email" id="contact-email" name="contact-email" required>
+            <button type="submit" class="cta-button">Submit Reservation</button>
+        </form>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <!-- Add image thumbnails or a photo gallery here -->
+    </section>
+
+    <!-- ...previous code... -->
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For reservations, call us at: 7780844589</p>
+        <p>Or use the contact form below:</p>
+        <form action="#" method="post">
+            <label for="contact-name">Your Name:</label>
+            <input type="text" id="contact-name" name="contact-name" required>
+            <label for="contact-email">Email:</label>
+            <input type="email" id="contact-email" name="contact-email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </section>
+
+    <!-- ...previous code... -->
+
+    <footer>
+        <p>&copy; 2023 Shaheeen Restaurant . All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
